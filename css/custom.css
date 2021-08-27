@@ -76,7 +76,59 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0,0,0.75);
+    background-color: rgba(0, 0,0,0.50);
+
+}
+.services_main_menu
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) 
+{
+    .resume_second_div
+    {
+        margin-top: 40px;
+    }    
+}
+
+
+@media screen and (max-width:576px)
+{
+    .about_row
+    {
+        padding: 0px 10px;
+    }
+    .about_p
+    {
+        font-size: 14px !important;
+    }
+    .services_main_menu
+    {
+        display: unset;
+    }
+    .history-icon-div
+    {
+        display: none;
+    }
+    .about-author .author-thumb
+    {
+        width: 100%;
+    }
+    .about-author .author-desc b
+    {
+        display: inline;
+    }
+    .author-desc
+    {
+        font-size: 14px;
+    }
+    .resume_second_div
+    {
+        margin-top: 0px;
+    } 
+    
 
 }
 
