@@ -263,10 +263,10 @@ textarea, label {
 /*------------------------------------------------
 	Start Styling
 -------------------------------------------------*/
-.site-wrapper {
+/* .site-wrapper {
   /* border-top: 4px solid #FA6862; */
-  /* border-top: 3px dashed #b8e994; */
-}
+  /* border-top: 3px dashed #b8e994; 
+} */
 
 .page-close {
   font-size: 30px;
