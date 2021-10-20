@@ -689,6 +689,8 @@ textarea, label {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 30px;
   position: relative;
+  border: 3px outset #ffffff30;
+    padding: 15px;
 }
 .works-item img {
   width: 100%;
